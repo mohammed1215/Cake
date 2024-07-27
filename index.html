@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="all.min.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="main.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="imgs/logo.png" alt="" />
+          <p class="header-title">Grandma’s Bakery</p>
+        </div>
+        <ul class="header-nav">
+          <li><a href="#" class="header-active">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="content">
+      <div class="content-links">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <div class="container">
+        <div class="content-header">
+          <h2 class="content-title">
+            Enjoy fresh items of our Grandma’s Reciepe
+          </h2>
+
+          <a onclick="openDialog()" class="content-button" href="#">See Menu</a>
+          <p>* 10% off on first order</p>
+        </div>
+        <dialog>
+          <button onclick="closeDialog()" autofocus>Close</button>
+        </dialog>
+        <div class="content-items">
+          <div class="content-item">
+            <img src="imgs/reciepe1.jpeg" alt="" />
+          </div>
+          <div class="content-item">
+            <img src="imgs/reciepe2.jpeg" alt="" />
+          </div>
+          <div class="content-item">
+            <img src="imgs/reciepe3.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="offers">
+      <div class="container">
+        <div class="offers-title">
+          <h2>What we offer</h2>
+          <p>
+            Introducing you a wide variety of bakery items with unique taste and
+            the creamiest of cakes in the city.
+          </p>
+        </div>
+        <div class="offers-items">
+          <div class="offer-item">
+            <div class="img-holder">
+              <img src="imgs/offer1.jpeg" alt="" />
+            </div>
+            <p>Bread</p>
+          </div>
+          <div class="offer-item">
+            <div class="img-holder">
+              <img src="imgs/offer2.jpeg" alt="" />
+            </div>
+            <p>Cookies</p>
+          </div>
+          <div class="offer-item">
+            <div class="img-holder">
+              <img src="imgs/offer3.jpeg" alt="" />
+            </div>
+            <p>Macron</p>
+          </div>
+          <div class="offer-item">
+            <div class="img-holder">
+              <img src="imgs/offer4.jpeg" alt="" />
+            </div>
+            <p>Pretzel</p>
+          </div>
+          <div class="offer-item">
+            <div class="img-holder">
+              <img src="imgs/offer5.jpeg" alt="" />
+            </div>
+            <p>Cupcakes</p>
+          </div>
+          <div class="offer-item">
+            <div class="img-holder">
+              <img src="imgs/offer6.jpeg" alt="" />
+            </div>
+            <p>Cakes</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container">
+        <img src="imgs/img.jpeg" alt="" />
+        <div class="about-content">
+          <h2>About Grandma’s Bakery</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam. ut labore et dolore magna aliqua.
+          </p>
+          <button class="about-button">Read More</button>
+        </div>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="container">
+        <h2 class="title">Reviews from Customers</h2>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="imgs/person1.jpeg" alt="" />
+              <div class="review-content">
+                <p>
+                  This place is great. They have so many baked goods it will
+                  blow your mind. They have everything from large cakes to
+                  cupcakes to donuts to pastries to breads to cookies. The price
+                  is also fair.
+                </p>
+                <p><strong>Aisha Pun</strong>, Student</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="imgs/person1.jpeg" alt="" />
+              <div class="review-content">
+                <p>
+                  This place is great. They have so many baked goods it will
+                  blow your mind. They have everything from large cakes to
+                  cupcakes to donuts to pastries to breads to cookies. The price
+                  is also fair.
+                </p>
+                <p><strong>Aisha Pun</strong>, Student</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="imgs/person1.jpeg" alt="" />
+              <div class="review-content">
+                <p>
+                  This place is great. They have so many baked goods it will
+                  blow your mind. They have everything from large cakes to
+                  cupcakes to donuts to pastries to breads to cookies. The price
+                  is also fair.
+                </p>
+                <p><strong>Aisha Pun</strong>, Student</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <ul class="footer-links">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Team</a></li>
+            <li><a href="">FAQs </a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+          <address>
+            <h3>Contact</h3>
+            <p>Sidhartha chowk-8</p>
+            <p>Pokhara, Nepal</p>
+            <p>+977-[0]61-428793</p>
+          </address>
+          <div class="map">
+            <img src="imgs/map.jpeg" alt="" />
+            <div class="word">Map</div>
+            <div class="zoomin">
+              <div class="icon">
+                <i style="color: black" class="fa-solid fa-camera"></i>
+              </div>
+              <div class="person"><i class="fa-solid fa-person"></i></div>
+              <div class="plusplus">
+                <span onclick='zoom("In")' class="plus"
+                  ><i class="fa-solid fa-plus"></i
+                ></span>
+                <span onclick='zoom("Out")' class="minus"
+                  ><i class="fa-solid fa-minus"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyRight">
+          <p>Copyright @ 2021 GrandmaBakery</p>
+          <div class="footer-icons">
+            <a href="#"
+              ><i class="fa-brands fa-facebook-f" style="color: blue"></i
+            ></a>
+            <a href="#"
+              ><i class="fa-brands fa-youtube" style="color: red"></i
+            ></a>
+            <a href="#"
+              ><i class="fa-brands fa-instagram" style="color: white"></i
+            ></a>
+          </div>
+          <p>Created by Mohammed</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
